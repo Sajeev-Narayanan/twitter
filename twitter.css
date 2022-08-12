@@ -1,0 +1,202 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.Main{
+    width: 100%;
+    height: 100%;
+}
+.MainImg{
+    width: 55%;
+    height: 90%;
+    float: left;
+}
+.logo
+{
+    width: 50px;
+    height: 40px;
+    float: left;
+    padding: 10px;
+}
+
+.google
+{
+    width: 15px;
+    height: 15px;
+}
+.apple
+{
+    width: 15px;
+    height: 15px;
+}
+.line
+{
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+.line:after
+{
+    content: "";
+    border-radius: 20px ;
+    background: #adadad;
+    height: 1px;
+    width: 40%;
+    display: block;
+  
+}
+.line span
+{
+   position: absolute;
+   top: 20%;
+   left: 20%;
+   transform: translate(-20%, -50%);
+   background: black;
+   padding: 4px;
+   color: white;
+}
+.phoneORemail
+{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    width: 300px;
+    height: 39px;
+    border: 1px;
+    border-radius: 27px;
+    margin-top: 10px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.formdiv
+{
+    width: 38%;
+    height: 90%;
+    float: left;
+    padding: 36px;
+    
+    
+}
+a
+{
+    text-decoration: none;
+}
+.signin
+{
+    border-width: 1px;
+    color: rgb(29, 155, 240);
+    line-height: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    border-color: rgb(83, 100, 113);
+    width: 300px;
+    height: 40px;
+    border-radius: 27px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.logodiv
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 100px;
+    
+}
+.textdiv
+{
+    color: rgb(113, 118, 123);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 12px;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.happening
+{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(231, 233, 234);
+    line-height: 84px;
+    letter-spacing: -1.2px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.joindiv
+{
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 36px;
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.button
+{
+    width: 100%;
+    height: 30%;
+}
+.buttonclass
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 27px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttonclass2
+{
+    font-family: "Google Sans",arial,sans-serif;
+    width: 300px;
+    height: 40px;
+    border-radius: 27px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.sign
+{
+    font-size: 15px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(231, 233, 234);
+    margin-top: 40px;
+}
+.signindiv
+{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.footer
+{
+    width: 100%;
+    height: 10%;
+    float: left;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    color: rgb(113, 118, 123);
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerlink
+{
+    color: rgb(113, 118, 123);
+    padding-right: 16px;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
